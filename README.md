@@ -10,6 +10,7 @@ Each step is explaind in the following:
 - Percentiles boxplot for parent strain values for each robot. In this plot, we can see the robots are returning slightly different values for the same parent strains. I came to the conclusion that the strains' screening values for each robot should be compared to the parent strains' values measured using the same robot. 
 - Stacker position vs parent strain mean values for each robot. Based on this plot it is clear that stacker position is an important feature and each position need to be compared to to itself. Based on this plot I came with idea of fitting a linear curve to the datapoint (parent strains' values) for each robot in the last step.
 - Parent strian mean values vs plates. This plot shows the same trend as stacker position plot, which makes sense looking at the dataset and the relationship between the stacker positions and the plate number. 
+
 2- Choosing the potential candidates for the next round of screening: 
 - Fitting a linear curve to the datapoint (parent strains' values) for each robot. f(x) = a*x + b where x is the stacker position and f(x) is the parent strain's mean value (mean over 4 different parent strains values in the dataset for each plate). 
 - Estimate the mean value for each stacker position.
