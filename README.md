@@ -4,7 +4,8 @@ The dataset for this assignment includes the screening values from three differe
 
 Jupyter notebook file "Take_home_assignemnt.ipynb" includes the calculations, plots and the strains I picked. 
 
-Each step is explaind in the following: //
+Each step is explaind in the following: 
+
 1- Looking into the relationship between each feature and the screening values (only parent strains) to find out if there is any significant differences between the values different robots are returning. I was thinking maybe the outliers need to be removed from data. But I did not do it since they did not seem to be that important in my final approache in picking the strains. I got three plots in this step: //
 - Percentiles boxplot for parent strain values for each robot. In this plot, we can see the robots are returning slightly different values for the same parent strains. I came to the conclusion that the strains' screening values for each robot should be compared to the parent strains' values measured using the same robot. 
 - Stacker position vs parent strain mean values for each robot. Based on this plot it is clear that stacker position is an important feature and each position need to be compared to to itself. Based on this plot I came with idea of fitting a linear curve to the datapoint (parent strains' values) for each robot in the last step.
