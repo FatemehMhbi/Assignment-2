@@ -5,7 +5,7 @@ The dataset for this assignment includes the screening values from three differe
 
 Jupyter notebook file "Take_home_assignemnt.ipynb" includes the calculations, plots and the strains I picked. 
 
-First I tried to understand the features and tried to understand their relationship to the values. Then I fit a model and picked the strains. Each step is explaind in the following: 
+First I tried to understand the features and their relationship to the values. Then I fit a linear curve to the parent strains' values and picked the strains. Each step is explaind in the following: 
 
 1- Looking into the relationship between each feature and the screening values (only parent strains). I got three plots in this step: 
 - Percentiles boxplot for parent strain values for each robot. This plot is to find out if there is any significant differences between the values different robots are returning. I was thinking maybe the outliers need to be removed from data. But I did not do it since they did not seem to be that important in my final approache in picking the strains. In this plot, we can see the robots are returning slightly different values for the same parent strains. I came to the conclusion that the strains' screening values for each robot should be compared to the parent strains' values measured using the same robot. 
