@@ -1,5 +1,5 @@
-# Amyris_take_home_assignment
-How to pick strains with improvement over the parent strains for the next round of screening (HTS)?
+# Assignment-2
+How to pick strains with improvement over the parent strains for the next round of screening?
 
 The dataset for this assignment includes the screening values from three different robots (explained in README.pdf file). The goal is to pick a specified number (20, 60, and 120) of strains for the next round of screening based on their improvement over the parent strain.
 
